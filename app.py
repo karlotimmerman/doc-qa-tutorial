@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 from utils import parse_pdf, embed_text, get_answer
 
 st.header("Doc QA")
